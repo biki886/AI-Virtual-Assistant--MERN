@@ -31,7 +31,7 @@ const Signin = () => {
       const user = result.data.user;
       setuserData(user);
 
-      // DB te assistant already thakle home
+      
       if (user.assistantName && user.assistantImage) {
         navigate("/home");
       } else {
