@@ -4,7 +4,7 @@ import React, { createContext, useEffect, useState } from "react";
 export const UserDataContext = createContext();
 
 const UserContext = ({ children }) => {
-  const serverUrl = "http://localhost:3000";
+  const serverUrl = "https://ai-virtual-assistant-mern-3sy7.onrender.com";
 
   const [userData, setuserData] = useState(null);
   const [loading, setLoading] = useState(true);
