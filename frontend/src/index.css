@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 270px;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-text {
+  animation: typing 3s steps(35) infinite alternate, blink 0.7s infinite;
+}
